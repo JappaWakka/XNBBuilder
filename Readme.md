@@ -1,7 +1,7 @@
 # XNBBuilder
 
 ## About (Idea)
-Converts various file formats to .xnb files for use in games made with the XNA and MonoGame frameworks, including models, audio and images./
+Converts various file formats to .xnb files for use in games made with the XNA and MonoGame frameworks, including models, audio and images.
 
 ### Update by JappaWakka:
 I made it so that when the Compress Content setting is disabled, textures (including those from models) won't be compressed with DXT.
