@@ -163,6 +163,10 @@ namespace XNBBuilderLib
                     }
                     metaData.Add("Name", Path.GetFileNameWithoutExtension(fileNames[i]));
 
+                    if (this.CompressContent == false)
+                    {
+                        metaData.Add("ProcessorParameters_TextureFormat", "Color");
+                    }
                     this.SourceAssets[i] = new TaskItem(fileNames[i], metaData);
                 }
 
